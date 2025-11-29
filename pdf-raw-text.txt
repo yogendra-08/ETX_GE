@@ -1,0 +1,1120 @@
+
+
+1.What is the primary purpose of downloading the Arduino IDE software? 
+a) To connect to the internet 
+b) To manage firmware on connected devices 
+c) To write, compile, and upload code to Arduino boards 
+d) To create visual diagrams of electronic circuits 
+ANS: C 
+2.When installing the Arduino IDE, which of the following is a required step after downloading the 
+software? 
+a) Connect the Arduino board to a power source only 
+b) Select the specific Arduino board model in the IDE 
+c) Launch the Arduino IDE and open a new sketch 
+d) Power up your Arduino board with a USB cable 
+ANS: d 
+ 
+3.What is the function of the setup() function in an Arduino program? 
+a) It runs repeatedly until the board is powered off 
+b) It runs only once when the board is powered on or reset 
+c) It is used to read input from analog pins 
+d) It initializes libraries and sets up variables 
+ANS: b 
+ 
+4.How does a user typically connect the Arduino IDE to a computer to upload code? 
+a) Via Bluetooth 
+b) Via Wi-Fi 
+c) Via a USB cable 
+d) Via an Ethernet cable 
+ANS: c 
+ 
+5.Which step is necessary to ensure the Arduino IDE correctly compiles the code for your specific board? 
+a) Plug in the USB cable 
+b) Use the correct port 
+c) Select the correct board from the Tools menu 
+d) Open the Serial Monitor 
+ANS: c 
+ 
+6.Which of the following is not a necessary component for basic Arduino IDE installation and use? 
+a) An Arduino boards 
+b) A USB cables 
+c) An internet connection to download the IDE 
+d) The Arduino IDE software 
+ANS: d 
+7.What is the function of the loop() function in an Arduino program? 
+a) It runs only once when the board is powered on or reset 
+b) It executes the initial setup for the Arduino IDE 
+c) It runs repeatedly after the setup() function has finished 
+d) It is used to define variables  
+ANS:b 
+
+ 
+For writing infinite loop in Arduino, which function it uses? 
+(a) void setup( ) 
+(b) void loop( ) 
+(c) void main( ) 
+(d) None of these 
+ANS: b 
+ 
+ 
+Normally, an LED is connected to ______ pin of Arduino. 
+(a) Analog 
+(b) Digital 
+(c) Analog and Digital 
+(d) None of these 
+ 
+ANS: b 
+The output of following code will be: 
+void setup() 
+{  
+   pinMode(2,OUTPUT); 
+   digitalwrite(2,HIGH); 
+} 
+Void loop() 
+{ 
+} 
+(a) Logic ‘1’ at pin 2 
+(b) Digit 1 at pin 2  
+(c) Decimal value ‘1’ at pin  2 
+(d) error 
+ 
+ 
+Ans:d 
+ 
+delay(200); 
+Above line in arduino IDE generates the delay of _________ 
+(a) 0.2s 
+(b) 20s 
+(c) 0.02s 
+(d) 200s 
+ 
+
+ANS: a 
+A function to generate micro second delay in Arduino is 
+(a) delayms( ) 
+(b) delayus( ) 
+(c) delay( ) 
+(d) delayMicroseconds( ) 
+ 
+ 
+ 
+Ans:d 
+How many minimum functions must be written in any arduino code? 
+(a) 0 
+(b) 1 
+(c) 2 
+(d) 3 
+ 
+ANS: C 
+   
+When writing a sketch, how do you decide which features belong in the setup function and which    
+belong in the loop function? 
+a) Features that need to be initialized go in setup 
+b) Features that need to be initialized go in loop 
+c)Features that need to run continuously go in setup 
+d)Features that need to run continuously go in loop 
+ANS: a 
+ 
+3. If we use the Arduino Uno or the Ethernet shield to write data to an SD card, this data can be read by 
+any computer. 
+True 
+False 
+ANS:  TRUE 
+ 
+4. The Arduino Uno can keep track of the real-time date and time right out of the box. 
+True 
+False 
+ANS: FALSE 
+ultrasonic-sensor-hc-sr04-module-for-arduino
+
+ 
+5. The HTTP response code that indicates successful transmission of the message request is ______. 
+ a)300 
+ b)302 
+c)200 
+d)401 
+ANS: c 
+ 
+6. How can you hook up multiple Arduinos to your local network? 
+a) Give them a unique MAC address 
+b) Give them a unique IP address 
+c)Give them a unique MAC address and a unique IP address 
+d)Give them a unique MAC address and match your router's IP address 
+ 
+ANS: c 
+ 
+8. An Arduino sketch does not have the traditional main () function that's generally present in C 
+programs. 
+True 
+False 
+ANS: true 
+ 
+9. What is the differentiating aspect between the two numeric types: char and byte? 
+a)Range 
+b)No. of bytes/Size 
+c)char is used in highly specific applications 
+d)byte is used to save memory 
+ANS:  b 
+ 
+10. The numeric type double is the same as float 
+True 
+False 
+ANS: False 
+ 
+ 
+ 
+13. Which function executes first when a sketch is built? 
+loop() 
+
+setup() 
+init() 
+main() 
+ANS: setup 
+ 
+ 
+15. Select the function that you can use to detect a button press on the Arduino 
+buttonRead() 
+buttonPress() 
+analogRead() 
+digitalRead() 
+ANS: digital read() 
+ 
+16. An Arduino Uno is most suited for _________. 
+a.Controlling peripherals 
+b.Powering peripherals 
+c.Controlling and powering peripherals 
+ANS: c 
+ 
+17. The core processor of the Arduino Uno (Atmega328p) has a 16MHz crystal oscillator for the 
+processor clock. 
+True 
+False 
+ANS: true 
+ 
+18. The 3.3V regulator on the Arduino Uno has an output current of _______. 
+50 mA 
+100 mA 
+150 mA 
+200 Ma 
+ANS: 50mA 
+ 
+19. An LED driver is an example of _________. 
+Input 
+Output 
+ 
+ANS: output 
+ 
+
+20. delay(100000) results in a delay of _______. 
+100000 seconds 
+100 seconds 
+1 second 
+10 seconds 
+ANS: 100s 
+ 
+21. Select the correct statement(s) 
+PWM pins mimic analog signals 
+Sensors generate analog readings that are read by the analog pins 
+Analog signals are converted using an analog-to-digital converter by analog pins 
+All of the above 
+ANS: all  
+ 
+22. An Arduino sketch undergoes pre-processing to turn into a ______ program 
+C/C++ 
+Java 
+Assembly 
+Arduino 
+ANS: c/c++ 
+ 
+23. It's impossible to store a higher number of characters in an array than the declared size of the array. 
+True 
+False 
+ANS: true 
+ 
+24. Select the true statements 
+a.You can store multiple values in an array and use a loop to iterate through each of the values 
+b.A variable that was previously used to store an integer can be repurposed to store a float value 
+instead 
+c.You can convert a variable from one data type to another 
+d.You can store a single value in two different data types using a single variable 
+ANS:a 
+ 
+) 
+ 
+
+ 
+7. To use the I2C communication protocol, you can use the _____ library in your sketch. 
+Serial 
+SPI 
+Wire 
+ComI2C 
+ANS: wire 
+ 
+28. Select the sensor that measures pressure relative to atmospheric pressure. 
+Vacuum pressure sensor 
+Absolute pressure sensor 
+Gauge pressure sensor 
+Differential pressure sensor 
+ANS: 
+Gauge pressure sensor 
+29. Select the type of temperature sensor that you are most likely to find in an Integrated Circuit. 
+Thermistor 
+Semiconductor based sensor 
+Resistance Thermometer 
+Thermocouple 
+ANS: Semiconductor based sensor 
+ 
+30. A hygrometer is a _______ sensor. 
+Humidity 
+Water content 
+Wetness 
+Air pressure 
+ANS: Humidity 
+ 
+32. Select the right measurement units for a humidity sensor. 
+DEW/Fost point (D/F PT) 
+Parts Per Million (PPM) 
+RH 
+
+ANS: RH 
+ 
+33. _______ sensors measure moisture using humidity. 
+Seismoscope 
+Capacitive 
+Resistive 
+Both Resistive and Capacitive 
+ANS: Both Resistive and Capacitive 
+ 
+ 
+35. This proximity sensor can sense metals as well as the levels of liquids. 
+Inductive proximity sensor 
+Capacitive proximity sensor 
+Ultrasonic proximity sensor 
+Magnetic proximity sensor 
+ANS: Capacitive proximity sensor 
+ 
+36. Select the communication protocol(s) that allows multiple Masters instead of just one. 
+a.SPI 
+b.I2C 
+c.CAN 
+        d.  both b &c  
+ 
+ANS:d 
+ 
+37. Select the communication protocol(s) that allow the Master and Slaves to communicate with each 
+other simultaneously. 
+a.CAN 
+b.SPI 
+c.I2C 
+         d. both a & b 
+ 
+ANS:d 
+ 
+38. If you are optimizing for performance, and have no shortage of pins, which communication 
+protocol/hardware would you choose? 
+
+UART 
+SPI 
+I2C 
+CAN 
+ANS: SPI 
+ 
+39. This is the communication protocol used by SD (Secure Digital) cards. 
+I2C 
+UART 
+SPI 
+USART 
+ANS: SPI 
+ 
+40. A tactile sensor is also known as a ________ sensor. 
+Temperature 
+Humidity 
+Pressure 
+Touch 
+ANS: Touch 
+ 
+ 
+  
+1. What is the full form of IoT? 
+a) Internet of Technology 
+b) Incorporate of Things 
+c) Internet of Things 
+d) Incorporate of Technology 
+ 
+Answer: c 
+Explanation: The full form of IoT is the “Internet of Things”. IoT means accessing and controlling 
+equipment and devices that are used daily through the Internet. 
+2. What is IoT? 
+a) network of physical objects embedded with sensors 
+b) network of virtual objects 
+c) network of objects in the ring structure 
+d) network of sensors 
+ 
+Answer: a 
+Explanation: The Internet of Things (IoT) is a network of physical objects embedded with sensors, 
+software, and other technologies for exchanging data with other devices over the internet. 
+
+3. Who coined the term “Internet of Things”? 
+a) Kevin Aston 
+b) John Wright 
+c) Edward Jameson 
+d) George Garton 
+ 
+Answer: a 
+Explanation: Kevin invented coined the term “Internet of Things” in 1999 during his work at Procter & 
+Gamble to describe the network connecting objects in the physical world with the Internet. 
+4. When was the actual term “Internet of Things” coined? 
+a) 1998 
+b) 1999 
+c) 2000 
+d) 2002 
+ 
+Answer: b 
+Explanation: The actual term “Internet of Things” was coined in 1999 by technologist Kevin Aston during 
+his work at Procter & Gamble while giving a presentation about technology and the internet. 
+5. Which of the following is not an IoT device? 
+a) Table 
+b) Laptop 
+c) Arduino 
+d) Tablet 
+ 
+Answer: a 
+Explanation: IoT devices are embedded with sensors, microprocessors, actuators, etc. Laptop, Arduino, 
+and Tablet are embedded systems and they can be operated with the internet, thus they are IoT 
+devices. 
+6. Which of the following is false about IoT devices? 
+a) IoT devices use the internet for collecting and sharing data 
+b) IoT devices need microcontrollers 
+c) IoT devices use wireless technology 
+d) IoT devices are completely safe 
+ 
+Answer: d 
+Explanation: IoT devices are wireless devices and they use the internet for collecting and sharing data. 
+They are not completely safe because they store data and sometimes hackers access them. 
+7. Which of the following is not an IoT platform? 
+a) Amazon Web Services 
+b) Microsoft Azure 
+c) Salesforce 
+d) Flipkart 
+ 
+Answer: d 
+Explanation: Amazon Web Services, Microsoft Azure, and Salesforce provide cloud computing IoT 
+services. But Flipkart is an e-commerce website that provides marketing facilities. 
+8. Which of the following is not an application of IoT? 
+a) BMP280 
+
+b) Smart home 
+c) Smart city 
+d) Self-driven cars 
+ 
+Answer: a 
+Explanation: Smart homes, smart cities, and self-driven cars are applications of IoT. BMP280 is a sensor 
+that is used to measure air pressure. It is a component of IoT devices. 
+9. Which of the following is not a fundamental component of an IoT system? 
+a) Sensors 
+b) Connectivity and data processing 
+c) User interface 
+d) Transformer 
+ 
+Answer: d 
+Explanation: Sensors are required to collect data, network connectivity is required for data processing 
+and to interface with the user. Transformers are not required as they are used for voltage 
+transformation. 
+10. What is the full form of IIOT? 
+a) Index Internet of Things 
+b) Incorporate Internet of Things 
+c) Industrial Internet of Things 
+d) Intense Internet of Things 
+ 
+Answer: c 
+Explanation: The full form of IIOT is the “Industrial Internet of Things”. It is for industry-oriented 
+applications and communication transportation is done through both wired and wireless devices. 
+11. Which layer is used for wireless connection in IoT devices? 
+a) Application layer 
+b) Network layer 
+c) Data link layer 
+d) Transport layer 
+ 
+Answer: c 
+Explanation: Data link layer is used for Ethernet and wireless connections. The network layer is used for 
+Internet Protocols. The transport layer is used for TCP/UDP protocols and the application layer directly 
+interacts with the application. 
+12. Which of the following is false about the IoT components? 
+a) A light sensor (photoresistor) is an analog sensor 
+b) A microphone is a digital sensor 
+c) A push button is a digital sensor 
+d) A keyboard is a digital sensor 
+ 
+Answer: b 
+Explanation: A light sensor is an analog sensor because it senses light intensity. A microphone is also an 
+analog sensor because it senses sound. Push buttons and keyboards are operated digitally so, they are 
+digital sensors. 
+13. Which of the following is used to capture data from the physical world in IoT devices? 
+a) Sensors 
+
+b) Actuators 
+c) Microprocessors 
+d) Microcontrollers 
+ 
+Answer: a 
+Explanation: Sensors are used to capture data from the physical world. Microprocessors and 
+microcontrollers are used to control the operations and actuators are for outputs of IoT devices. 
+14. Which of the following command is used to trigger the Amazon echo IOT device? 
+a) Hello 
+b) Suri 
+c) Alexa 
+d) Hey 
+Answer: c 
+Explanation: Amazon Echo is a hands-free speaker that can be controlled with the human voice. It 
+connects to Alexa voice services and “Alexa” command is used to trigger Amazon echo IoT device. 
+ 
+15. Which of the following is false about the MANET IoT network? 
+a) It is a self-configuring network 
+b) It has a low data rate 
+c) It doesn’t have any encryption 
+d) Power is readily available for complex security 
+ 
+Answer: d 
+Explanation: MANET is an unstable network. It is self-configuring and it has a low data rate. It doesn’t 
+have power availability for complex security. It also doesn’t have any encryption. 
+16. Which of the following is not a sensor in IoT? 
+a) BMP280 
+b) DHT11 
+c) Photoresistor 
+d) LED 
+ 
+Answer: d 
+Explanation: BMP280 is an air pressure sensor. DHT11 is a humidity and temperature sensor. A 
+photoresistor is a light sensor. LED is not a sensor as it emits light. 
+17. Which of the following is not an actuator in IoT? 
+a) Stepper motor 
+b) A fan 
+c) An LED 
+d) Arduino 
+Answer: d 
+Explanation: An actuator converts electrical signals into a corresponding physical quantity. A stepper 
+motor or a fan can rotate. An LED can emit light. So, they are actuators. But Arduino is not. 
+18. What is the use of PWM signals in IoT development boards? 
+a) They are used by sensors to have analog input 
+b) They are used by sensors to have digital input 
+c) They are used by actuators to have analog input 
+d) They are used by actuators to have digital input 
+ 
+
+Answer: c 
+Explanation: PWM signals are used for power regulation. Actuators mostly need analog signals to 
+operate. So, PWM signals are used by actuators to have analog input. 
+19. Which of the following is used to reprogram a Bootloader in IoT devices? 
+a) VHDL programming 
+b) IDE 
+c) ICSP 
+d) MANET 
+ 
+Answer: c 
+Explanation: Bootloader is firmware on a microcontroller. ICSP is used to reprogram a Bootloader in IoT 
+devices. ICSP stands for In-Circuit Serial Programming. It is a special programming method to program 
+firmware. 
+20. Which of the following is true about Arduino IoT devices? 
+a) They are open-source software 
+b) They can only read analog inputs 
+c) They have their own operating systems 
+d) They don’t have pre-programmed firmware 
+ 
+Answer: a 
+Explanation: Arduino designs are open-source software. They can read both analog and digital inputs. 
+They don’t have operating systems and firmware is pre-programmed inside them. 
+21. How many number of elements in the Open IoT Architecture? 
+a) 3 elements 
+b) 7 elements 
+c) 8 elements 
+d) 6 elements 
+ 
+Answer: b 
+Explanation: The 7 main elements are: sensor middleware (X-GSN), cloud data storage, scheduler, 
+service delivery, and utility manager, request definition, request presentation, configuration and 
+monitoring. 
+22. IoT-A stands for ________ 
+a) Internet of Things Area 
+b) Industrial of things Architecture 
+c) Internet of Things Address 
+d) Internet of Things Architecture 
+ 
+Answer: d 
+Explanation: The EU’s Internet of Things Architecture is another example of the way in which we can 
+solve IoT related challenges. 
+23. Which of the following is not a feature of the Raspberry PI model B IoT device? 
+a) It has 256 MB SDRAM 
+b) It has a single USB connector 
+c) It has its own operating system 
+d) It has an Ethernet port 
+ 
+
+Answer: a 
+Explanation: Raspberry PI model B has a single 2.0 USB connector and an on-board 10/100 Ethernet 
+RJ45 jack. It has its own operating system and 512 MB SDRAM memory. 
+24. Which of the following processor is used in the Raspberry PI 3 IoT device? 
+a) Broadcom BCM2711 
+b) Broadcom BCM2837 
+c) Broadcom BCM2838 
+d) Intel 8085 
+ 
+Answer: b 
+Explanation: Raspberry PI 3 has Broadcom BCM2837 microprocessor. It is a 64-bit Quad-core 
+microprocessor. Broadcom BCM2711 is the microprocessor of Raspberry PI 4 Model B. 
+25. Which library is used to access I2C in Arduino IoT devices? 
+a) EEPROM 
+b) Wire 
+c) DHT11 
+d) ArduinoJson 
+ 
+Answer: b 
+Explanation: I2C is a synchronous and serial communication protocol. Wire library is used to access this 
+protocol in Arduino. Initialization is done with Wire.begin() command. 
+26. Which of the following is not related to Arduino IDE IoT software? 
+a) Serial monitor 
+b) Verify 
+c) Upload 
+d) Terminate 
+ 
+Answer: d 
+Explanation: Verify option is used to verify or compile the Arduino code and the upload option is used to 
+upload the code to the Arduino development board. Serial monitor is used to display the data. 
+27. Which of the following is a complete line of home IoT devices that include smart switches? 
+a) Belkin’s WeMo 
+b) Cinder 
+c) Awair 
+d) Canary 
+ 
+Answer: a 
+Explanation: Belkin’s WeMo is a complete line of home IoT devices that includes smart switches, 
+cameras, lights, an air purifier and more. It allows the end user to control a lot of different devices with 
+one smartphone app. 
+28. IoT gateway must provide __________ 
+a) Protocol abstraction 
+b) Data storage 
+c) Security with hardware 
+d) Simple and fast installation 
+ 
+Answer: a 
+Explanation: IoT gateway must provide: 
+
+Protocol abstraction 
+Computing and I/O performance 
+Integration communication capability. 
+29. What IoT collects? 
+a) Device data 
+b) Machine generated data 
+c) Sensor data 
+d) Human generated data 
+ 
+Answer: b 
+Explanation: IoT is aggregating and compressing massive amounts of low latency/ low duration/high 
+volume machine generated data coming from a wide variety of sensor to support real time use cases. 
+30. Which of the following protocol is used to link all the devices in the IoT? 
+a) HTTP 
+b) UDP 
+c) Network 
+d) TCP/IP 
+ 
+Answer: d 
+Explanation: The internet of Thing is the global system of interconnected computer networks that use 
+the Internet Protocol suite (TCP/IP) to link billions of devices worldwide. 
+31. Which service permits the changes to the IoT services? 
+a) Update 
+b) Registered service status 
+c) Enable from suspension 
+d) Enable 
+ 
+Answer: a 
+Explanation: Update service permits changes to the IoT services. In particular, it allows for the updating 
+of the service’s lifecycle metadata according to the requested changes. 
+32. What is the role of Cloud in smart grid architecture of IoT? 
+a) Security 
+b) Collect data 
+c) Manage data 
+d) Store data 
+ 
+Answer: c 
+Explanation: Cloud to edge Middleware: manage data and edge devices, data streaming and event 
+processing, control authorized access. 
+33. What is the component of an IoT system that executes a program? 
+a) A sensor 
+b) A microcontroller 
+c) An actuator 
+d) A digital to analog converter 
+ 
+Answer: b 
+Explanation: Microcontroller is the component of an IOT device that executes a program. It contains a 
+control unit, converters, timers, flash memory, etc. These are used to control the program execution. 
+
+34. Which programming language is used by Arduino IDE IoT software for writing codes? 
+a) Python 
+b) Java 
+c) C/C++ 
+d) JavaScript 
+ 
+Answer: c 
+Explanation: C and C++programming languages are used in Arduino IDE for writing, compiling, and 
+uploading codes. Several in-built libraries are also imported for better coding efficiency. 
+35. What is the full form of DHCP in IoT communication protocols? 
+a) Dynamic Host Communication Protocol 
+b) Domain Host Communication Protocol 
+c) Dynamic Host Control Protocol 
+d) Domain Host Control Protocol 
+ 
+Answer: a 
+Explanation: DHCP is a network management protocol used on internet protocol networks to 
+automatically assign IP addresses. DHCP stands for Dynamic Host Communication Protocol. 
+36. What is the full form of IDE in Arduino IDE IoT software? 
+a) Intra Refence Environment 
+b) Intra Development Environment 
+c) Integrated Development Environment 
+d) Integrated Deployed Environment 
+ 
+Answer: c 
+Explanation: The full form of IDE in Arduino IDE IoT software is Integrated Development Environment. It 
+is a cross-platform application for Windows, macOS, and Linux operating systems. 
+ 
+37. dweet.io provides __________ to send data from IoT devices. 
+a) Web API 
+b) POST HTTP 
+c) JSON 
+d) HTTP 
+ 
+Answer: a 
+Explanation: The dweet.io data sharing utility provides Web API so that we can send data from our IoT 
+device, known as thing in dweet.io documentation. 
+ 
+6. Which of the following is false about IoT devices? 
+a) IoT devices use the internet for collecting and sharing data 
+b) IoT devices need microcontrollers 
+c) IoT devices use wireless technology 
+d) IoT devices are completely safe 
+ 
+Answer: d 
+Explanation: IoT devices are wireless devices and they use the internet for collecting and sharing data. 
+They are not completely safe because they store data and sometimes hackers access them. 
+ 
+
+7. Which of the following is not an IoT platform? 
+a) Amazon Web Services 
+b) Microsoft Azure 
+c) Salesforce 
+d) Flipkart 
+ 
+Answer: d 
+6. Which of the following is false about IoT devices? 
+a) IoT devices use the internet for collecting and sharing data 
+b) IoT devices need microcontrollers 
+c) IoT devices use wireless technology 
+d) IoT devices are completely safe 
+ 
+Answer: d 
+Explanation: IoT devices are wireless devices and they use the internet for collecting and sharing data. 
+They are not completely safe because they store data and sometimes hackers access them. 
+ 
+7. Which of the following is not an IoT platform? 
+a) Amazon Web Services 
+b) Microsoft Azure 
+c) Salesforce 
+d) Flipkart 
+ 
+Answer: d 
+Which of the following is not an application of IoT? 
+a) BMP280 
+b) Smart home 
+c) Smart city 
+d) Self-driven cars 
+ 
+Answer: a 
+Explanation: Smart homes, smart cities, and self-driven cars are applications of IoT. BMP280 is a sensor 
+that is used to measure air pressure. It is a component of IoT devices. 
+ 
+9. Which of the following is not a fundamental component of an IoT system? 
+a) Sensors 
+b) Connectivity and data processing 
+c) User interface 
+d) Transformer 
+ 
+Ans:d 
+ Which layer is used for wireless connection in IoT devices? 
+a) Application layer 
+b) Network layer 
+c) Data link layer 
+d) Transport layer 
+ 
+
+Answer: c 
+Explanation: Data link layer is used for Ethernet and wireless connections. The network layer is used for 
+Internet Protocols. The transport layer is used for TCP/UDP protocols and the application layer directly 
+interacts with the application. 
+ 
+12. Which of the following is false about the IoT components? 
+a) A light sensor (photoresistor) is an analog sensor 
+b) A microphone is a digital sensor 
+c) A push button is a digital sensor 
+d) A keyboard is a digital sensor 
+ 
+Answer: b 
+Which of the following is used to capture data from the physical world in IoT devices? 
+a) Sensors 
+b) Actuators 
+c) Microprocessors 
+d) Microcontrollers 
+ 
+Answer: a 
+Explanation: Sensors are used to capture data from the physical world. Microprocessors and 
+microcontrollers are used to control the operations and actuators are for outputs of IoT devices. 
+14. Which of the following command is used to trigger the Amazon echo IOT device? 
+a) Hello 
+b) Suri 
+c) Alexa 
+d) Hey 
+ 
+Ans:c 
+Which of the following is not an actuator in IoT? 
+a) Stepper motor 
+b) A fan 
+c) An LED 
+d) Arduino 
+ 
+Answer: d 
+Explanation: An actuator converts electrical signals into a corresponding physical quantity. A stepper 
+motor or a fan can rotate. An LED can emit light. So, they are actuators. But Arduino is not. 
+18. What is the use of PWM signals in IoT development boards? 
+a) They are used by sensors to have analog input 
+b) They are used by sensors to have digital input 
+c) They are used by actuators to have analog input 
+d) They are used by actuators to have digital input 
+ 
+Answer: c 
+Which of the following is not a feature of the Raspberry PI model B IoT device? 
+a) It has 256 MB SDRAM 
+b) It has a single USB connector 
+c) It has its own operating system 
+
+d) It has an Ethernet port 
+ 
+Answer: a 
+Which of the following processor is used in the Raspberry PI 3 IoT device? 
+a) Broadcom BCM2711 
+b) Broadcom BCM2837 
+c) Broadcom BCM2838 
+d) Intel 8085 
+ 
+Answer: b 
+Explanation: Raspberry PI 3 has Broadcom BCM2837 microprocessor. It is a 64-bit Quad-core 
+microprocessor. Broadcom BCM2711 is the microprocessor of Raspberry PI 4 Model B. 
+25. Which library is used to access I2C in Arduino IoT devices? 
+Which library is used to access I2C in Arduino IoT devices? 
+a) EEPROM 
+b) Wire 
+c) DHT11 
+d) ArduinoJson 
+ 
+Answer: b 
+Explanation: I2C is a synchronous and serial communication protocol. Wire library is used to access this 
+protocol in Arduino. Initialization is done with Wire.begin() command. 
+26. Which of the following is not related to Arduino IDE IoT software? 
+a) Serial monitor 
+b) Verify 
+c) Upload 
+d) Terminate 
+Answer: d 
+  
+IoT gateway must provide __________ 
+a) Protocol abstraction 
+b) Data storage 
+c) Security with hardware 
+d) Simple and fast installation 
+ 
+Answer: a 
+Explanation: IoT gateway must provide: 
+Protocol abstraction 
+Computing and I/O performance 
+Integration communication capability. 
+29. What IoT collects? 
+a) Device data 
+b) Machine generated data 
+c) Sensor data 
+d) Human generated data 
+ 
+Answer: b 
+
+Which of the following protocol is used to link all the devices in the IoT? 
+a) HTTP 
+b) UDP 
+c) Network 
+d) TCP/IP 
+ 
+Answer: d 
+Explanation: The internet of Thing is the global system of interconnected computer networks that use 
+the Internet Protocol suite (TCP/IP) to link billions of devices worldwide. 
+31. Which service permits the changes to the IoT services? 
+a) Update 
+b) Registered service status 
+c) Enable from suspension 
+d) Enable 
+ 
+Answer: a 
+Explanation: Update service permits changes to the IoT services. In particular, it allows for the updating 
+of the service’s lifecycle metadata according to the requested changes. 
+32. What is the role of Cloud in smart grid architecture of IoT? 
+a) Security 
+b) Collect data 
+c) Manage data 
+d) Store data 
+ 
+Answer: c 
+Explanation: Cloud to edge Middleware: manage data and edge devices, data streaming and event 
+processing, control authorized access. 
+33. What is the component of an IoT system that executes a program? 
+a) A sensor 
+b) A microcontroller 
+c) An actuator 
+d) A digital to analog converter 
+ 
+Answer: b 
+Explanation: Microcontroller is the component of an IOT device that executes a program. It contains a 
+control unit, converters, timers, flash memory, etc. These are used to control the program execution. 
+34. Which programming language is used by Arduino IDE IoT software for writing codes? 
+a) Python 
+b) Java 
+c) C/C++ 
+d) JavaScript 
+ 
+Answer: c 
+Explanation: C and C++programming languages are used in Arduino IDE for writing, compiling, and 
+uploading codes. Several in-built libraries are also imported for better coding efficiency. 
+35. What is the full form of DHCP in IoT communication protocols? 
+a) Dynamic Host Communication Protocol 
+b) Domain Host Communication Protocol 
+
+c) Dynamic Host Control Protocol 
+d) Domain Host Control Protocol 
+ 
+Answer: a 
+Explanation: DHCP is a network management protocol used on internet protocol networks to 
+automatically assign IP addresses. DHCP stands for Dynamic Host Communication Protocol. 
+36. What is the full form of IDE in Arduino IDE IoT software? 
+a) Intra Defence Environment 
+b) Intra Development Environment 
+c) Integrated Development Environment 
+d) Integrated Deployed Environment 
+ 
+Answer: c 
+Explanation: The full form of IDE in Arduino IDE IoT software is Integrated Development Environment. It 
+is a cross-platform application for Windows, macOS, and Linux operating systems. 
+37. dweet.io provides __________ to send data from IoT devices. 
+a) Web API 
+b) POST HTTP 
+c) JSON 
+d) HTTP 
+ 
+Answer: a 
+Explanation: The dweet.io data sharing utility provides Web API so that we can send data from our IoT 
+device, known as thing in dweet.io documentation. 
+ 
+  
+Identify among the following which is not a fundamental component of IoT system. 
+a .user interface 
+b. sensors 
+c. Transformers 
+d. connectivity and data processing 
+Ans: c 
+ 
+ Among the following layers ,idetify the one which is used for wireless connections in iot devices 
+a. Datalinl layer 
+b. Transport layer 
+c. Network layer 
+d. Application layer 
+Ans: c 
+Identify the language preferred for iot analytics 
+a.python 
+b.HTML 
+c.PHP 
+d.c++ 
+ 
+Ans: a 
+ 
+
+15. How many USB ports are present in Raspberry Pi 3? 
+a) 5 
+b) 2 
+c) 4 
+d) 3 
+View Answer 
+Answer: c 
+How many GPIO pins does raspberry pi model B+ have? 
+ 7 
+ 12 
+ 25 
+ 40 
+Ans:40 
+4. The Raspberry Pi has a __________ interface to allow it to perform serial data 
+communications. 
+a) UART 
+b) GPIO 
+c) I2C 
+d) SPI 
+Answer: UART 
+. How many USB ports are present in Raspberry Pi 3? 
+a) 5 
+b) 2 
+c) 4 
+d) 3 
+Answer: 4 
+ 
+ Data collected by Raspberry Pi from the sensor can be 
+a) Processed in Raspberry Pi 
+b) Sent to other devices connected to the network 
+c) Used to control/activate other devices in the network 
+d) All of the above 
+Answer: All of the above 
+ 
+15. Which operating system Raspberry Pi has? 
+a)Linux 
+b) OpenBSD 
+c) NetBSD 
+d) All of the above 
+Answer: All of the above 
+ 
+The Raspberry Pi is defined as the? 
+a) Mini computer 
+
+b) Micro Computer 
+c) Mega Computer 
+d) Nano Computer 
+Answer: Mini computer 
+ 
+22. Which instruction set architecture is used in Raspberry Pi? 
+a) X86 
+b) MSP 
+c) AVR 
+d) ARM 
+Answer: ARM 
+ 
+Which instruction set is used in Raspberry Pi? 
+a) CISC 
+b) RISC 
+c) MIPS 
+d) None of these mentioned 
+Answer: MIPS 
+ 
+24. Which of the following variants of Raspberry Pi has an inbuilt wi-fi? 
+a) Raspberry Pi 2 
+b) Raspberry Pi 3 
+c) Raspberry Pi A+ 
+d) Raspberry Pi Zero 
+Answer: Raspberry Pi 3 
+ What is the use of the ESP8266 WIFI Module? 
+a) Monitors Motion 
+b) Evaluates air pressure 
+c) Network Provider 
+d) Switches circuits 
+ 
+Answer: c 
+ How many pins are present in the ESP8266 WIFI Module? 
+a) 12 
+b) 10 
+c) 8 
+d) 50 
+ 
+Answer: c 
+ 
+What is the maximum source current that is required to operate the ESP8266 WIFI Module? 
+a) 28 A 
+b) 12 mA 
+c) 100 mA 
+
+d) 1 A 
+ 
+Answer: b 
+ 
+ What will happen if we supply a voltage of 250 kV to the Vcc of the ESP8266 WiFi Module? 
+a) Damage is caused 
+b) Module will shut down 
+c) Module will not respond for the time the voltage is applied 
+d) Module will function normally 
+ 
+Answer: a 
+ 
+What is the optimum supply current that is required to operate the ESP8266 WiFi Module? 
+a) 28 A 
+b) 13 mA 
+c) 100 mA 
+d) 1 A 
+ 
+Answer: c 
+What kind of device is the ESP8266 WiFi Module? 
+a) Passive Sensor 
+b) Active Sensor 
+c) Networking Device 
+d) Switching Device 
+ 
+Answer: c 
+What is the type of waves that the ESP8266 WiFi Module detects? 
+a) Infrared Signal 
+b) Radio Signal 
+c) DC Signal 
+d) Hybrid Signal 
+Answer: b 
+What is the primary function of the ESP8266 module? 
+a) To measure temperature 
+b) To function as a network provider/Wi-Fi module 
+c) To act as a basic micro-controller without connectivity 
+d) To control electric motors  
+Ans: b 
+The NodeMCU ESP8266 is compatible with which development environment? 
+a) Visual Studio 
+b) Arduino IDE 
+c) Eclipse 
+d) PyCharm  
+Ans:b 
+3.Which pin is used for the analog input on the NodeMCU ESP8266? 
+a) D0 
+b) VIN 
+
+c) A0 
+d) GPIO0  
+Ans :c 
+ 
+4.What is the purpose of the TX pin on the ESP8266 module? 
+a) To provide power input 
+b) To upload the program 
+c) To measure analog voltage 
+d) To ground the circuit  
+Ans: b 
+What is the purpose of the EN (Enable) pin on the NodeMCU? 
+a) To measure analog voltage 
+b) To reset the microcontroller 
+c) To provide ground 
+d) To enable the microcontroller 
+Ans:d 
+Which of the following is false about IoT devices? 
+a) IoT devices use the internet for collecting and sharing data 
+b) IoT devices need microcontrollers 
+c) IoT devices use wireless technology 
+d) IoT devices are completely safe 
+Answer: d 
+Which of the following is not an IoT platform? 
+a) Amazon Web Services 
+b) Microsoft Azure 
+c) Salesforce 
+d) Flipkart 
+Answer: d 
+ Services provided by application layer? 
+a) Web chat 
+b) Error control 
+c) Connection services 
+d) Congestion control 
+View Answer 
+Answer: a 
+Application layer interacts directly with the ________ 
+a) front user 
+b) end user 
+c) sensors 
+d) wired link 
+View Answer 
+Answer: b 
+ 

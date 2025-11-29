@@ -1,0 +1,574 @@
+[
+  {
+    "id": 3,
+    "question": "The HTTP response code that indicates successful transmission of the message request is ______.",
+    "options": [
+      "300",
+      "302",
+      "200",
+      "401 ANS: c"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "How can you hook up multiple Arduinos to your local network?",
+    "options": [
+      "Give them a unique MAC address",
+      "Give them a unique IP address",
+      "Give them a unique MAC address and a unique IP address",
+      "Give them a unique MAC address and match your router's IP address ANS: c"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "What is the differentiating aspect between the two numeric types: char and byte?",
+    "options": [
+      "Range",
+      "No. of bytes/Size",
+      "char is used in highly specific applications",
+      "byte is used to save memory ANS:  b"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 31,
+    "question": "What is the full form of IoT?",
+    "options": [
+      "Internet of Technology",
+      "Incorporate of Things",
+      "Internet of Things",
+      "Incorporate of Technology Explanation: The full form of IoT is the “Internet of Things”. IoT means accessing and controlling equipment and devices that are used daily through the Internet."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 32,
+    "question": "What is IoT?",
+    "options": [
+      "network of physical objects embedded with sensors",
+      "network of virtual objects",
+      "network of objects in the ring structure",
+      "network of sensors Explanation: The Internet of Things (IoT) is a network of physical objects embedded with sensors, software, and other technologies for exchanging data with other devices over the internet."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 33,
+    "question": "Who coined the term “Internet of Things”?",
+    "options": [
+      "Kevin Aston",
+      "John Wright",
+      "Edward Jameson",
+      "George Garton Explanation: Kevin invented coined the term “Internet of Things” in 1999 during his work at Procter & Gamble to describe the network connecting objects in the physical world with the Internet."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 34,
+    "question": "When was the actual term “Internet of Things” coined?",
+    "options": [
+      "1998",
+      "1999",
+      "2000",
+      "2002 Explanation: The actual term “Internet of Things” was coined in 1999 by technologist Kevin Aston during his work at Procter & Gamble while giving a presentation about technology and the internet."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is not an IoT device?",
+    "options": [
+      "Table",
+      "Laptop",
+      "Arduino",
+      "Tablet Explanation: IoT devices are embedded with sensors, microprocessors, actuators, etc. Laptop, Arduino, and Tablet are embedded systems and they can be operated with the internet, thus they are IoT devices."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 36,
+    "question": "Which of the following is false about IoT devices?",
+    "options": [
+      "IoT devices use the internet for collecting and sharing data",
+      "IoT devices need microcontrollers",
+      "IoT devices use wireless technology",
+      "IoT devices are completely safe Explanation: IoT devices are wireless devices and they use the internet for collecting and sharing data. They are not completely safe because they store data and sometimes hackers access them."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 37,
+    "question": "Which of the following is not an IoT platform?",
+    "options": [
+      "Amazon Web Services",
+      "Microsoft Azure",
+      "Salesforce",
+      "Flipkart Explanation: Amazon Web Services, Microsoft Azure, and Salesforce provide cloud computing IoT services. But Flipkart is an e-commerce website that provides marketing facilities."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 38,
+    "question": "Which of the following is not an application of IoT?",
+    "options": [
+      "BMP280",
+      "Smart home",
+      "Smart city",
+      "Self-driven cars Explanation: Smart homes, smart cities, and self-driven cars are applications of IoT. BMP280 is a sensor that is used to measure air pressure. It is a component of IoT devices."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 39,
+    "question": "Which of the following is not a fundamental component of an IoT system?",
+    "options": [
+      "Sensors",
+      "Connectivity and data processing",
+      "User interface",
+      "Transformer Explanation: Sensors are required to collect data, network connectivity is required for data processing and to interface with the user. Transformers are not required as they are used for voltage transformation."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 40,
+    "question": "What is the full form of IIOT?",
+    "options": [
+      "Index Internet of Things",
+      "Incorporate Internet of Things",
+      "Industrial Internet of Things",
+      "Intense Internet of Things Explanation: The full form of IIOT is the “Industrial Internet of Things”. It is for industry-oriented applications and communication transportation is done through both wired and wireless devices."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 41,
+    "question": "Which layer is used for wireless connection in IoT devices?",
+    "options": [
+      "Application layer",
+      "Network layer",
+      "Data link layer",
+      "Transport layer Explanation: Data link layer is used for Ethernet and wireless connections. The network layer is used for Internet Protocols. The transport layer is used for TCP/UDP protocols and the application layer directly interacts with the application."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 42,
+    "question": "Which of the following is false about the IoT components?",
+    "options": [
+      "A light sensor (photoresistor) is an analog sensor",
+      "A microphone is a digital sensor",
+      "A push button is a digital sensor",
+      "A keyboard is a digital sensor Explanation: A light sensor is an analog sensor because it senses light intensity. A microphone is also an analog sensor because it senses sound. Push buttons and keyboards are operated digitally so, they are digital sensors."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 43,
+    "question": "Which of the following is used to capture data from the physical world in IoT devices?",
+    "options": [
+      "Sensors",
+      "Actuators",
+      "Microprocessors",
+      "Microcontrollers Explanation: Sensors are used to capture data from the physical world. Microprocessors and microcontrollers are used to control the operations and actuators are for outputs of IoT devices."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 44,
+    "question": "Which of the following command is used to trigger the Amazon echo IOT device?",
+    "options": [
+      "Hello",
+      "Suri",
+      "Alexa",
+      "Hey Explanation: Amazon Echo is a hands-free speaker that can be controlled with the human voice. It connects to Alexa voice services and “Alexa” command is used to trigger Amazon echo IoT device."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 45,
+    "question": "Which of the following is false about the MANET IoT network?",
+    "options": [
+      "It is a self-configuring network",
+      "It has a low data rate",
+      "It doesn’t have any encryption",
+      "Power is readily available for complex security Explanation: MANET is an unstable network. It is self-configuring and it has a low data rate. It doesn’t have power availability for complex security. It also doesn’t have any encryption."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 46,
+    "question": "Which of the following is not a sensor in IoT?",
+    "options": [
+      "BMP280",
+      "DHT11",
+      "Photoresistor",
+      "LED Explanation: BMP280 is an air pressure sensor. DHT11 is a humidity and temperature sensor. A photoresistor is a light sensor. LED is not a sensor as it emits light."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 47,
+    "question": "Which of the following is not an actuator in IoT?",
+    "options": [
+      "Stepper motor",
+      "A fan",
+      "An LED",
+      "Arduino Explanation: An actuator converts electrical signals into a corresponding physical quantity. A stepper motor or a fan can rotate. An LED can emit light. So, they are actuators. But Arduino is not."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 48,
+    "question": "What is the use of PWM signals in IoT development boards?",
+    "options": [
+      "They are used by sensors to have analog input",
+      "They are used by sensors to have digital input",
+      "They are used by actuators to have analog input",
+      "They are used by actuators to have digital input Explanation: PWM signals are used for power regulation. Actuators mostly need analog signals to operate. So, PWM signals are used by actuators to have analog input."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 49,
+    "question": "Which of the following is used to reprogram a Bootloader in IoT devices?",
+    "options": [
+      "VHDL programming",
+      "IDE",
+      "ICSP",
+      "MANET Explanation: Bootloader is firmware on a microcontroller. ICSP is used to reprogram a Bootloader in IoT devices. ICSP stands for In-Circuit Serial Programming. It is a special programming method to program firmware."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 50,
+    "question": "Which of the following is true about Arduino IoT devices?",
+    "options": [
+      "They are open-source software",
+      "They can only read analog inputs",
+      "They have their own operating systems",
+      "They don’t have pre-programmed firmware Explanation: Arduino designs are open-source software. They can read both analog and digital inputs. They don’t have operating systems and firmware is pre-programmed inside them."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 51,
+    "question": "How many number of elements in the Open IoT Architecture?",
+    "options": [
+      "3 elements",
+      "7 elements",
+      "8 elements",
+      "6 elements Explanation: The 7 main elements are: sensor middleware (X-GSN), cloud data storage, scheduler, service delivery, and utility manager, request definition, request presentation, configuration and monitoring."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 52,
+    "question": "IoT-A stands for ________",
+    "options": [
+      "Internet of Things Area",
+      "Industrial of things Architecture",
+      "Internet of Things Address",
+      "Internet of Things Architecture Explanation: The EU’s Internet of Things Architecture is another example of the way in which we can solve IoT related challenges."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 53,
+    "question": "Which of the following is not a feature of the Raspberry PI model B IoT device?",
+    "options": [
+      "It has 256 MB SDRAM",
+      "It has a single USB connector",
+      "It has its own operating system",
+      "It has an Ethernet port Explanation: Raspberry PI model B has a single 2.0 USB connector and an on-board 10/100 Ethernet RJ45 jack. It has its own operating system and 512 MB SDRAM memory."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 54,
+    "question": "Which of the following processor is used in the Raspberry PI 3 IoT device?",
+    "options": [
+      "Broadcom BCM2711",
+      "Broadcom BCM2837",
+      "Broadcom BCM2838",
+      "Intel 8085 Explanation: Raspberry PI 3 has Broadcom BCM2837 microprocessor. It is a 64-bit Quad-core microprocessor. Broadcom BCM2711 is the microprocessor of Raspberry PI 4 Model B."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 55,
+    "question": "Which library is used to access I2C in Arduino IoT devices?",
+    "options": [
+      "EEPROM",
+      "Wire",
+      "DHT11",
+      "ArduinoJson Explanation: I2C is a synchronous and serial communication protocol. Wire library is used to access this protocol in Arduino. Initialization is done with Wire.begin() command."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 56,
+    "question": "Which of the following is not related to Arduino IDE IoT software?",
+    "options": [
+      "Serial monitor",
+      "Verify",
+      "Upload",
+      "Terminate Explanation: Verify option is used to verify or compile the Arduino code and the upload option is used to upload the code to the Arduino development board. Serial monitor is used to display the data."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 57,
+    "question": "Which of the following is a complete line of home IoT devices that include smart switches?",
+    "options": [
+      "Belkin’s WeMo",
+      "Cinder",
+      "Awair",
+      "Canary Explanation: Belkin’s WeMo is a complete line of home IoT devices that includes smart switches, cameras, lights, an air purifier and more. It allows the end user to control a lot of different devices with one smartphone app."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 58,
+    "question": "IoT gateway must provide __________",
+    "options": [
+      "Protocol abstraction",
+      "Data storage",
+      "Security with hardware",
+      "Simple and fast installation Explanation: IoT gateway must provide: Protocol abstraction Computing and I/O performance Integration communication capability."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 59,
+    "question": "What IoT collects?",
+    "options": [
+      "Device data",
+      "Machine generated data",
+      "Sensor data",
+      "Human generated data Explanation: IoT is aggregating and compressing massive amounts of low latency/ low duration/high volume machine generated data coming from a wide variety of sensor to support real time use cases."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 60,
+    "question": "Which of the following protocol is used to link all the devices in the IoT?",
+    "options": [
+      "HTTP",
+      "UDP",
+      "Network",
+      "TCP/IP Explanation: The internet of Thing is the global system of interconnected computer networks that use the Internet Protocol suite (TCP/IP) to link billions of devices worldwide."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 61,
+    "question": "Which service permits the changes to the IoT services?",
+    "options": [
+      "Update",
+      "Registered service status",
+      "Enable from suspension",
+      "Enable Explanation: Update service permits changes to the IoT services. In particular, it allows for the updating of the service’s lifecycle metadata according to the requested changes."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 62,
+    "question": "What is the role of Cloud in smart grid architecture of IoT?",
+    "options": [
+      "Security",
+      "Collect data",
+      "Manage data",
+      "Store data Explanation: Cloud to edge Middleware: manage data and edge devices, data streaming and event processing, control authorized access."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 63,
+    "question": "What is the component of an IoT system that executes a program?",
+    "options": [
+      "A sensor",
+      "A microcontroller",
+      "An actuator",
+      "A digital to analog converter Explanation: Microcontroller is the component of an IOT device that executes a program. It contains a control unit, converters, timers, flash memory, etc. These are used to control the program execution."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 64,
+    "question": "Which programming language is used by Arduino IDE IoT software for writing codes?",
+    "options": [
+      "Python",
+      "Java",
+      "C/C++",
+      "JavaScript Explanation: C and C++programming languages are used in Arduino IDE for writing, compiling, and uploading codes. Several in-built libraries are also imported for better coding efficiency."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 65,
+    "question": "What is the full form of DHCP in IoT communication protocols?",
+    "options": [
+      "Dynamic Host Communication Protocol",
+      "Domain Host Communication Protocol",
+      "Dynamic Host Control Protocol",
+      "Domain Host Control Protocol Explanation: DHCP is a network management protocol used on internet protocol networks to automatically assign IP addresses. DHCP stands for Dynamic Host Communication Protocol."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 66,
+    "question": "What is the full form of IDE in Arduino IDE IoT software?",
+    "options": [
+      "Intra Refence Environment",
+      "Intra Development Environment",
+      "Integrated Development Environment",
+      "Integrated Deployed Environment Explanation: The full form of IDE in Arduino IDE IoT software is Integrated Development Environment. It is a cross-platform application for Windows, macOS, and Linux operating systems."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 67,
+    "question": "dweet.io provides __________ to send data from IoT devices.",
+    "options": [
+      "Web API",
+      "POST HTTP",
+      "JSON",
+      "HTTP Explanation: The dweet.io data sharing utility provides Web API so that we can send data from our IoT device, known as thing in dweet.io documentation."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 68,
+    "question": "Which of the following is false about IoT devices?",
+    "options": [
+      "IoT devices use the internet for collecting and sharing data",
+      "IoT devices need microcontrollers",
+      "IoT devices use wireless technology",
+      "IoT devices are completely safe Explanation: IoT devices are wireless devices and they use the internet for collecting and sharing data. They are not completely safe because they store data and sometimes hackers access them."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 69,
+    "question": "Which of the following is not an IoT platform?",
+    "options": [
+      "Amazon Web Services",
+      "Microsoft Azure",
+      "Salesforce",
+      "Flipkart"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 70,
+    "question": "Which of the following is false about IoT devices?",
+    "options": [
+      "IoT devices use the internet for collecting and sharing data",
+      "IoT devices need microcontrollers",
+      "IoT devices use wireless technology",
+      "IoT devices are completely safe Explanation: IoT devices are wireless devices and they use the internet for collecting and sharing data. They are not completely safe because they store data and sometimes hackers access them."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 76,
+    "question": "Which library is used to access I2C in Arduino IoT devices? Which library is used to access I2C in Arduino IoT devices?",
+    "options": [
+      "EEPROM",
+      "Wire",
+      "DHT11",
+      "ArduinoJson Explanation: I2C is a synchronous and serial communication protocol. Wire library is used to access this protocol in Arduino. Initialization is done with Wire.begin() command."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 79,
+    "question": "Which service permits the changes to the IoT services?",
+    "options": [
+      "Update",
+      "Registered service status",
+      "Enable from suspension",
+      "Enable Explanation: Update service permits changes to the IoT services. In particular, it allows for the updating of the service’s lifecycle metadata according to the requested changes."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 80,
+    "question": "What is the role of Cloud in smart grid architecture of IoT?",
+    "options": [
+      "Security",
+      "Collect data",
+      "Manage data",
+      "Store data Explanation: Cloud to edge Middleware: manage data and edge devices, data streaming and event processing, control authorized access."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 81,
+    "question": "What is the component of an IoT system that executes a program?",
+    "options": [
+      "A sensor",
+      "A microcontroller",
+      "An actuator",
+      "A digital to analog converter Explanation: Microcontroller is the component of an IOT device that executes a program. It contains a control unit, converters, timers, flash memory, etc. These are used to control the program execution."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 82,
+    "question": "Which programming language is used by Arduino IDE IoT software for writing codes?",
+    "options": [
+      "Python",
+      "Java",
+      "C/C++",
+      "JavaScript Explanation: C and C++programming languages are used in Arduino IDE for writing, compiling, and uploading codes. Several in-built libraries are also imported for better coding efficiency."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 83,
+    "question": "What is the full form of DHCP in IoT communication protocols?",
+    "options": [
+      "Dynamic Host Communication Protocol",
+      "Domain Host Communication Protocol",
+      "Dynamic Host Control Protocol",
+      "Domain Host Control Protocol Explanation: DHCP is a network management protocol used on internet protocol networks to automatically assign IP addresses. DHCP stands for Dynamic Host Communication Protocol."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 84,
+    "question": "What is the full form of IDE in Arduino IDE IoT software?",
+    "options": [
+      "Intra Defence Environment",
+      "Intra Development Environment",
+      "Integrated Development Environment",
+      "Integrated Deployed Environment Explanation: The full form of IDE in Arduino IDE IoT software is Integrated Development Environment. It is a cross-platform application for Windows, macOS, and Linux operating systems."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 85,
+    "question": "dweet.io provides __________ to send data from IoT devices.",
+    "options": [
+      "Web API",
+      "POST HTTP",
+      "JSON",
+      "HTTP Explanation: The dweet.io data sharing utility provides Web API so that we can send data from our IoT device, known as thing in dweet.io documentation. Identify among the following which is not a fundamental component of IoT system. a .user interface b. sensors c. Transformers d. connectivity and data processing Ans: c Among the following layers ,idetify the one which is used for wireless connections in iot devices a. Datalinl layer b. Transport layer c. Network layer d. Application layer Ans: c Identify the language preferred for iot analytics a.python b.HTML c.PHP d.c++ Ans: a"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 86,
+    "question": "How many USB ports are present in Raspberry Pi 3?",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "3 View Answer How many GPIO pins does raspberry pi model B+ have? 7 12 25 40 Ans:40"
+    ],
+    "answerIndex": 2
+  }
+]
